@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.btn {
+	padding: 0.4rem;
+	width: 4rem;
+	background: #04AA6D;
+	color: white;
+	font-size: 1rem;
+	cursor:pointer;
+	position: relative;
+	left: 613px;
+	bottom: 368px;
+}
+.btn:hover{
+	color: white;
+	background: #059862;
+}
+.main-editor {
+	background: #E8E8E8;
+	display: flex;
+	padding: 1rem;
+	height:100vh;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;	
+	align-items: center;
+}
+.first {
+	background-color: #ffffff;
+	width: 600px;
+	padding: 0.4rem;
+	outline: none;
+	height: 90vh;
+	margin: 0px 5px 0px 0px;
+}
+.second {
+	background-color: rgb(255, 255, 255);
+	width: 600px;
+	padding: 0.4rem;
+	height: 90vh;
+	border: 0px;
+	margin: 0px 0px 0px 5px;
+}

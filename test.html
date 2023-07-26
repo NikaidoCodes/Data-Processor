@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="editor/code.css">
+	<link rel="stylesheet" href="myCss.css">
+	</head>
+	<body>
+	<h1>Project: Data Processor</h1>	
+	<div class="flex-container">
+		<div class="fcontainer">
+			<fieldset>
+				<legend>Buttons Information:</legend>
+				<div id="fInfo">
+				</div>
+				<div id="sInfo">
+				</div>
+			</fieldset>
+		</div>		
+	<button onclick="myHeading()" class="btn1">Heading</button>
+	<button onclick="myParagraph()" class="btn2">Paragraph</button>
+	</div><br><br>
+	<div class="main-editor">
+		<button class="btn">Run</button>
+		<div class="first" id="writecode" contenteditable>
+		&lt;html&gt;<br>&lt;head&gt;<br>
+		&lt;style&gt;<br><br>h1{color: green;}<br><br>&lt;/style&gt;<br>
+		&lt;/head&gt;<br>&lt;body&gt;<br><br>
+		&lt;h1&gt;writecode&lt;/h1&gt;<br><br>
+		&lt;/body&gt;<br>&lt;/html&gt;
+		</div>
+		<iframe class="second">
+		</iframe>
+	</div>	
+	<script src="editor/editor.js"></script>	
+	<script src="myScript.js"></script>
+	</body>
+</html>
+
